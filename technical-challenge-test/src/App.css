@@ -1,5 +1,37 @@
 .App {
   text-align: center;
+  margin-top: 0px;
+}
+.universal-color-bg
+{
+  background-color: greenyellow;
+}
+
+.universal-color-cl
+{
+  color: rgb(14, 68, 185);
+}
+
+.menu-color
+{
+  color: rgb(255, 255, 255)!important;
+}
+.menu-color:hover
+{
+  color: greenyellow!important;
+}
+
+.hero-section button{
+  background-color: rgb(138, 207, 35);
+  border-radius: 30px;
+  border-color:rgba(0,0,0,0.1);
+}
+
+.hero-section button:hover{
+  background-color: rgb(255, 255, 255);
+  border-color:rgba(0,0,0,0.1);
+  color: #000;
+  border-radius: 30px;
 }
 
 .App-logo {
@@ -22,6 +54,61 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.menu-position
+{
+    text-align: right;
+}
+.cover-background
+{
+  background-image: url('./assets/img/cover/1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+
+}
+
+.shadow-about
+{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 50px 70px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 130px;
+  border-radius: 10px;
+  
+}
+
+.shadow-about2
+{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 1px 2px 0px;
+  padding: 50px 70px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 130px;
+  border-radius: 10px;
+  
+}
+
+.cover-inner
+{
+  height: 600px;
+}
+.navbar-color,.hero-color
+{
+    background-color: rgba(0,0,0,0.6);
+}
+.navbar-position
+{
+    margin-bottom: 100px;
+
+}
+
+.hero-position
+{
+    margin-top: 8px;
+    padding-top: 200px;
+    
+    padding-bottom: 12px;
+    color: aliceblue;
 }
 
 .App-link {
