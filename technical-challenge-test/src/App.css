@@ -4,7 +4,8 @@
 }
 .universal-color-bg
 {
-  background-color: greenyellow;
+  background-color: rgb(138, 207, 35);
+  color: rgb(219, 219, 219);
 }
 
 .universal-color-cl
@@ -18,7 +19,7 @@
 }
 .menu-color:hover
 {
-  color: greenyellow!important;
+  color: rgb(138, 207, 35)!important;
 }
 
 .hero-section button{
@@ -32,6 +33,11 @@
   border-color:rgba(0,0,0,0.1);
   color: #000;
   border-radius: 30px;
+}
+.footer-links li a
+{
+ text-decoration: none;
+ color: #2b52a0;
 }
 
 .App-logo {
@@ -100,6 +106,9 @@
 {
     margin-bottom: 100px;
 
+}
+.ads-adjust{
+  margin-bottom: 12px;
 }
 
 .hero-position

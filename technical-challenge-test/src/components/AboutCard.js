@@ -9,7 +9,7 @@ const AboutCard = () => {
           </Col>
           <Col lg={8} className="shadow-about">
             <h1 className="universal-color-cl">Welcome to Your Company</h1>
-            <hr style={{width:'240px', border: '3px solid green'}}/>
+            <hr style={{width:'240px', border: '3px solid rgb(138, 207, 35)'}}/>
             <p>We provide top-notch services to meet your needs
                 welcome to our platform <br/>
                 We provide top-notch services to meet your needs

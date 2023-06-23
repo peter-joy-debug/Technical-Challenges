@@ -3,6 +3,9 @@ import HeroSection from '../components/HeroSection';
 import AboutCard from '../components/AboutCard';
 import MVOSection from '../components/MissionVisionObjectiveSection';
 import AdsSection from '../components/AdsSection'
+import SideSection from '../components/SideDataSection';
+import UpdatesSection from '../components/UpdatesSection';
+import FooterSection from '../components/FooterSection';
 import '../App.css';
 
 const Home = () => {
@@ -33,6 +36,17 @@ const Home = () => {
         <AdsSection/>
       </div>
       <br/>
+      <div style={{backgroundColor:'grey',width:'99.3%',borderRadius:'10px'}}>
+        <SideSection/>
+      </div>
+      <br/>
+      <div style={{marginTop:'0px',zIndex:'2',backgroundColor:'white'}}>
+        <UpdatesSection/>
+      </div>
+
+      <div style={{backgroundColor:'rgb(219, 219, 219)',width:'99.3%',borderRadius:'10px'}}>
+        <FooterSection/>
+      </div>
       </>
     );
   };

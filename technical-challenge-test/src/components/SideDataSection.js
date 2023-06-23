@@ -1,11 +1,10 @@
 import { Navbar, Nav, Button, Container, Row, Col } from 'react-bootstrap';
-import Mission from './MissionCard.js';
-import Vision from './VisionCard.js';
-import Objective from './ObjectiveCard.js'
+import SideOne from './SideOne.js';
+import SideTwo from './SideTwo.js';
 import '../App.css';
-const MVOSection = () => {
+const SideSection = () => {
     return (
-      <Container fluid>
+      <Container fluid style={{padding:'130px 0px 130px 0px'}}>
         <Row className="justify-content-center">
           <Col lg={2} className="text-center">
             
@@ -13,9 +12,8 @@ const MVOSection = () => {
           <Col lg={8} className="">
             <Container>
                 <Row>
-                <Col lg={4}><Mission/></Col>
-                <Col lg={4}><Vision/></Col>
-                <Col lg={4}><Objective/></Col>
+                <Col lg={6}><SideOne/></Col>
+                <Col lg={6}><SideTwo/></Col>
                 </Row>
             </Container>
           </Col>
@@ -26,4 +24,4 @@ const MVOSection = () => {
       </Container>
     );
   };
-  export default MVOSection;
+  export default SideSection;
