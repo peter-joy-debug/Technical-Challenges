@@ -1,3 +1,5 @@
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-scroll';
 import NavBar from '../components/Navbar';
 import HeroSection from '../components/HeroSection';
 import AboutCard from '../components/AboutCard';
@@ -6,9 +8,12 @@ import AdsSection from '../components/AdsSection'
 import SideSection from '../components/SideDataSection';
 import UpdatesSection from '../components/UpdatesSection';
 import FooterSection from '../components/FooterSection';
+import ScrollToTopButton from '../components/ScrollToTopButton';
+
 import '../App.css';
 
 const Home = () => {
+
     return (
         <>
       <div className="cover-background" style={{marginBottom:'50px'}}>
@@ -45,6 +50,7 @@ const Home = () => {
       </div>
 
       <div style={{backgroundColor:'rgb(219, 219, 219)',width:'99.3%',borderRadius:'10px'}}>
+        <ScrollToTopButton/>
         <FooterSection/>
       </div>
       </>
