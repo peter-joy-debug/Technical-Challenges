@@ -12,7 +12,7 @@ const UpdatesSection = () => {
             
             <Container >
             <h1 className="universal-color-cl">LATEST STORIES AND <br/>UPDATES</h1>
-            <hr style={{width:'200px', border: '3px solid green'}}/>
+            <hr style={{width:'200px', border: '3px solid rgb(138, 207, 35)'}}/>
             <br/>
                 <Row>
                 <Col lg={4} className="ads-adjust"><UpdateCard/></Col>

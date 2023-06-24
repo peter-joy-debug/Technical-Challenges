@@ -9,6 +9,8 @@ def main():
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'technical_challenge_test_backend.settings')
     try:
         from django.core.management import execute_from_command_line
+        # from myapp.sample_data import add_sample_data
+        # add_sample_data()
     except ImportError as exc:
         raise ImportError(
             "Couldn't import Django. Are you sure it's installed and "
