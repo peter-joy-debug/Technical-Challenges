@@ -12,6 +12,9 @@
     - pipenv shell
     - pip install -r requirements.txt
     - pip freeze > requirements.txt
+    - python manage.py makemigrations myapp
+    - python manage.py migrate
+    
 4. Then after all type this command to start backend server:
     - python manage.py runserver
     After running server it will be executed on  http://127.0.0.1:8000/
